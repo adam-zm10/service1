@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfolio</title>
+  <title>Fiverr Gig Offers</title>
   <link rel="stylesheet" href="gig.css" />
 </head>
 <body>
@@ -14,7 +14,7 @@
   <div class="cards-container">
 
     <!-- Basic Offer -->
-    <div class="offer-card">
+   <div class="offer-card">
       <h2>Basic</h2>
       <p class="price">200DH</p>
       <ul>
@@ -53,24 +53,30 @@
     </div>
 
   </div>
+
   <section class="gig-description">
-      <h2>About this Service</h2>
+    <h2>About this Service</h2>
+    <ul>
+      <li>Build a modern and responsive portfolio website using clean HTML and CSS.</li>
+      <li>You can choose between a one-page scroll layout or a multi-page design, depending on the package.</li>
+      <li>All designs are mobile-friendly and custom-styled. Hosting help and a working contact form are included in the Premium package.</li>
+      <li>Let’s bring your personal brand online with a professional, fast, and clean website.</li>
+    </ul>
+  </section>
 
- <ul> 
-  <li> build a modern and responsive portfolio website using clean HTML and CSS.</li>
+  <!-- Contact Form -->
+  <section id="contact-form" class="contact-form">
+    <h2>Order Your Package</h2>
+    <form action="https://formspree.io/f/mvgqboeb" method="POST">
+      <input type="hidden" name="package" id="selected-package" value="">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="phone" placeholder="Phone Number (optional)">
+      <textarea name="message" placeholder="Any specific request?" rows="4"></textarea>
+      <button type="submit" class="btn">Send Order</button>
+    </form>
+  </section>
 
-
-<li>You can choose between a one-page scroll layout or a multi-page design , depending on the package.</li>
-
-
-<li>All designs are mobile-friendly and custom-styled. Hosting help and a working contact form are included in the Premium package.</li>
-
-
-<li>Lets bring your personal brand online with a professional, fast, and clean website.</li>
-</ul>
-    
-
-    </section>
 </section>
 
 </body>
