@@ -186,3 +186,19 @@ body {
 .contact-form button.btn:hover {
   background-color: #f3dc8f;
 }
+.preview-img {
+  width: 100%; /* makes it fill the card width */
+  max-width: 300px; /* limits the size if card is wide */
+  height: auto; /* keeps aspect ratio */
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #e0c97f55;
+  transition: transform 0.3s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.preview-img:hover {
+  transform: scale(1.05);
+}
